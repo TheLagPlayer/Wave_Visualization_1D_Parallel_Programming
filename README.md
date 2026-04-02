@@ -1,1 +1,3 @@
 The file "wave_eq.c" is the baseline of the course implementation projects and excercises. It is meant to be a simple application of the wave equation to simulate a 1D string of constant mass density. It uses the method of finite differentials and it discretizices the space in 1 mm and 1 ms intervals, expecting the use of constants to determine the lenght of both the string and the time lenght of the simulation.
+The equation implementation in the iteration to search for the solution is developed by Hans Petter Langtangen in their 2016 publication: " https://hplgit.github.io/num-methods-for-PDEs/doc/pub/wave/pdf/wave-4print-A4-2up.pdf ".
+The output of the code is expected to be pipelined into a txt or csv file and then be inputted for visualization purposes.
